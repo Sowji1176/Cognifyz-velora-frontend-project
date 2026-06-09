@@ -1,0 +1,81 @@
+body{
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo */
+
+.logo{
+    width: 320px;
+    display: block;
+    margin: 35px auto 10px auto;
+}
+
+/* Subtitle */
+
+.subtitle{
+    color: #C8A96B;
+    font-size: 22px;
+    letter-spacing: 8px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* Gold Divider */
+
+.divider{
+    width: 180px;
+    height: 1px;
+    background-color: #C8A96B;
+    margin: 30px auto;
+}
+
+/* Description */
+
+.description{
+    color: #d8c29d;
+    font-size: 18px;
+    line-height: 1.9;
+    width: 65%;
+    margin: auto;
+    font-weight: 300;
+}
+
+/* Fashion Banner */
+
+.fashion-banner{
+    width: 82%;
+    margin-top: 50px;
+    border-radius: 22px;
+    border: 1px solid #C8A96B;
+    margin-bottom: 60px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px){
+
+    .logo{
+        width: 220px;
+    }
+
+    .subtitle{
+        font-size: 15px;
+        letter-spacing: 4px;
+    }
+
+    .description{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .fashion-banner{
+        width: 92%;
+    }
+
+}
+

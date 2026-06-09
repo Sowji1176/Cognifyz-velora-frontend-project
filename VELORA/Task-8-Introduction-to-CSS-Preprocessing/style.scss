@@ -1,0 +1,49 @@
+// Variables
+
+$gold: #C8A96B;
+
+$black: #000000;
+
+$lightGold: #d8c29d;
+
+
+// Body
+
+body{
+
+    background-color: $black;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+// Subtitle
+
+.subtitle{
+
+    color: $gold;
+
+    letter-spacing: 5px;
+
+}
+
+
+// Description
+
+.description{
+
+    color: $lightGold;
+
+}
+
+
+// Product Card
+
+.product-card{
+
+    background-color: #111111;
+
+    border: 1px solid $gold;
+
+}
